@@ -1,13 +1,8 @@
 ### What's this
 
-A 'work in progress' idea that allow you to create a Framer prototype starting from your Sketch. Nothing new, but there is a plus.
-You can design with Sketch, add animations and interactions with Framer and it's all automated using Gulp, Webpack and BrowserSync.
+A small prototype to demonstrate how to implement emotion recognition into framer.
 
-You can work in your Sketch file, add interactions in your CoffeeScript main app file, save and automagically have the animated prototype updated with the new code and images inside the build folder.
-
-[Try Demo](https://framer-ux.herokuapp.com/)
-
-[Read blog post](https://blog.prototypr.io/automate-your-ux-design-workflow-with-framer-js-gulp-and-sketch-cc2e8484e4b7#.yw2i6ophx)
+[Try Demo](https://framer.cloud/mDZgV/)
 
 ### Requirements
 
