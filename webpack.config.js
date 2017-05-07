@@ -6,18 +6,20 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   context: __dirname + '/src/',
   devtool: 'source-map',
-  entry: 'app.coffee',
+  entry: [
+    'app.coffee'
+  ],
   module: {
     loaders: [
         {
           test: /\.coffee$/,
           loader: 'coffee-loader',
-	  exclude: /(node_modules)/,
+	        exclude: /(node_modules)/,
         },
         {
           test: /\.(coffee\.md|litcoffee)$/,
           loader: 'coffee-loader?literate',
-	  exclude: /(node_module)/,
+	        exclude: /(node_module)/,
         },
     ],
   },
